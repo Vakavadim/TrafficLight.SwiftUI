@@ -18,11 +18,11 @@ struct ContentView: View {
         case off = 0.3
     }
     
-    @State var currentLight = CurrentLight.red
-    @State var redLight = Toggle.off
-    @State var yellowLight = Toggle.off
-    @State var greenLight = Toggle.off
-    @State var buttonText = "Start"
+    @State private var currentLight = CurrentLight.red
+    @State private var redLight = Toggle.off
+    @State private var yellowLight = Toggle.off
+    @State private var greenLight = Toggle.off
+    @State private var buttonText = "Start"
     
     var body: some View {
         ZStack{
